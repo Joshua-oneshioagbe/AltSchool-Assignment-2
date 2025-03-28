@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check me out</title>
+</head>
+<body>
+    <a href="index.html">
+
+        <button>Back to homepage</button>
+</a>
+    <h2>Welcome to my world</h2>
+
+   
+    <p>On mobile view, you’ll find my photo. Like every tech enthusiast, I have a vision for my ideal workspace, so on tablet and desktop views, you’ll see some pictures that reflect it. Courtesy of X I found these beautiful pictures on a very good day. This webpage also includes an audio file and a video.</p>
+
+    <picture>
+        <source srcset="./assets/images/img-1.jpg" width="100%" height="auto" media="(max-width: 768px)">
+        <source srcset="./assets/images/img-2.jpg" width="100%" height="auto" media=" (min-width: 769px) and (max-width: 1024px)">
+        <source srcset="./assets/images/img-3.jpg" width="100%" height="auto" media="(min-width: 1025px)">
+        <img src="./assets/images/img-4.jpg" width="100%" height="auto" alt="Responsive Image"> 
+    </picture>
+    <br>
+    <h2>This here is a beautiful soundtrack you will like</h2>
+    <audio controls src="./assets/audio/song.mp3"></audio>
+
+    <h2>A motion video I fell in love with</h2>
+    <video controls src="./assets/videos/Motion.mp4" width="100%" height="auto"></video>
+
+    <h2>This video from AltSchool's youtube channel has been an inspiration to me</h2>
+    <iframe width="100%" height="315" 
+    src="https://youtu.be/HtQFHX5POCA?si=-jBt80Obq66XCA9U" 
+    title="From AltSchool Africa Student to Software Engineer in a San Francisco Company." 
+    frameborder="1" 
+    allowfullscreen>
+</iframe>
+
+    
+
+</body>
+</html>
